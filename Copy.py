@@ -14,3 +14,5 @@ for path, subdirs, files in os.walk(source_folder):
     for name in files:
         if(name.startswith(keyword) & name.endswith(".pptx")):
             new_location = shutil.copy(os.path.join(path, name), dst_folder)
+            
+print('Done!')
