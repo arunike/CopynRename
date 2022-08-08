@@ -1,4 +1,4 @@
-import os, time
+import os
 import shutil
 
 print('Enter the keyword of the files you want to copy: ', end = '')
